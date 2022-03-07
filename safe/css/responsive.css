@@ -1,0 +1,392 @@
+@media only screen and (max-width: 1200px) {
+	.logo {
+    	width: 15%;
+	}
+	.menu ul li a {
+		margin-right: 5px;
+		padding: 10px;
+	}
+	.menu {
+		width: 51%;
+	}
+	.blog_section {
+		margin: 0;
+	}
+	/* MASONARY */
+	.grid-wrapper .big_1 {
+		grid-column: span 1;
+		grid-row: span 2;
+	}
+	.sub-banner {
+		height: 463px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	header {
+		position: unset;
+	}
+	header .menu-icon, 
+	header .closebtn {
+	    display: block;
+	    color: #000;
+	}
+	.header-contact ul li a {
+		color: #000;
+	}
+	header .closebtn {
+    	font-weight: bold;
+    	padding: 0 0 0 10px;
+	}
+	.sidenav {
+	    height: 100%;
+	    width: 0;
+	    position: fixed;
+	    z-index: 1;
+	    top: 0;
+	    right: 0;
+	    background-color: #fff;
+	    overflow-x: hidden;
+	    transition: 0.5s;
+	    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	}
+	.menu ul li a:hover, 
+	.menu ul li a:focus, 
+	.menu ul li a:active, 
+	.menu ul li.active a {
+	    color: #ff8100;
+	    background: transparent;
+	}
+	.menu ul li a:after,
+	.menu ul li a:hover:after, 
+	.menu ul li a:focus:after, 
+	.menu ul li a:active:after, 
+	.menu ul li.active a:after {
+		display: none;
+	}
+	.menu {
+		order: 3;
+		width: auto;
+		padding-right: 0;
+	}
+	.menu ul {
+		display: block;
+	}
+	.menu ul li a {
+		color: #000;
+	}
+	.section-padding {
+		padding: 50px 0;
+	}
+	.about-main, 
+	.why-us-main, 
+	.all-article, 
+	.contact-main, 
+	.cta-main,
+	.footer-main {
+		flex-wrap: wrap;
+	}
+	.about-video,
+	.cta-img {
+		order: 2;
+	}
+	.about-txt {
+		padding-left: 0;
+		padding-bottom: 30px;
+	}
+	.why-txt,
+	.contact-txt,
+	.cta-txt,
+	.footer-about {
+		padding-bottom: 30px;
+	}
+	.why-services {
+		margin: 0;
+	}
+	.about-video,
+	.about-txt,
+	.why-txt,
+	.why-services,
+	.contact-txt, 
+	.contact-form,
+	.cta-txt,
+	.footer-about,
+	.footer-links,
+	.faq-txt,
+	.cta-btn,
+	.cta-img {
+		width: 100%;
+	}
+	.footer-about p {
+		padding-right: 0;
+	}
+	.page-title.left, 
+	.page-title.left h2,
+	.about-txt p,
+	.page-btn,
+	.why-txt p,
+	.contact-txt p,
+	.cta-txt p {
+		text-align: center;
+	}
+	.page-title.left h2:before, 
+	.page-title.left h2:after {
+		left: 0;
+		right: 0;
+	}
+	.page-title {
+		padding-bottom: 10px;
+	}
+	.contact-txt .social-media,
+	.cta-btn {
+		justify-content: center;
+	}
+	.banner-txt h1 {
+		font-size: 65px;
+	}
+	.address {
+		padding: 60px 0 55px;
+	}
+	.form-side {
+		padding-right: 40px;
+	}
+	.how-to-find {
+		padding: 45px 10px 46px 50px;
+	}
+	.blog-section {
+        display: block;
+    }
+	.side-bar {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+    .blog {
+        width: 100%;
+    }
+    .side-bar-box {
+        margin: 15px;
+    }
+  
+	/* masonary */
+	.grid-wrapper .big {
+		grid-column: span 1;
+		grid-row: span 2;
+	}
+	.pagination {
+		margin-bottom: 24px;
+	}
+}
+/* faq about */
+@media screen and (max-width:991px) {
+	/* .about-align{
+		flex-direction: column-reverse;
+	} */
+	.faq-title {
+		margin-bottom: 35px;
+	}
+	.about-main.about-align.faq-margine {
+		margin-top: 50px;
+	}
+	.about-sub-txt, .about-sub-img {
+		width: 100%;
+	}
+	.about-sub-txt p {
+		text-align: justify;
+		max-width: 100%;
+	}
+	.about-sub-txt {
+		margin-bottom: 30px;
+	}
+	.sub-banner {
+		height: 350px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.header-contact ul li a span {
+		display: none;
+	}
+	.header-contact ul li a:nth-child(1) i, 
+	.header-contact ul li a:nth-child(2) i {
+		margin-right: 0;
+	}
+	.logo {
+	    width: 25%;
+	}
+	.header-contact {
+		width: 65%;
+	}
+	.single-service {
+		margin: 16px 0;
+	}
+	.single-article {
+		margin: 20px 0;
+	}
+	.single-service:last-child,
+	.single-article:last-child {
+		margin-bottom: 0;
+	}
+	.single-service,
+	.single-article {
+		width: 100%;
+	}
+	.contact-form {
+		padding: 30px;
+	}
+	.banner-txt h1 {
+		font-size: 45px;
+	}
+	.banner-txt h2 {
+		font-size: 20px;
+	}
+	.page-btn a {
+		font-size: 16px;
+		padding: 12px 30px;
+	}
+	.banner {
+		height: 500px;
+	}
+	.header-social {
+		left: 0;
+		right: 0;
+		justify-content: center;
+	}
+	.banner-txt h1 {
+		font-size: 50px;
+	}
+	/*  */
+	.form-side {
+        width: 100%;
+        max-width: 100%;
+        padding-right: 0;
+    }
+    .form-section {
+        display: block;
+    }
+    .how-to-find {
+        max-width: 100%;
+        margin-top: 50px;
+    }
+    .form_btn {
+        float: unset;
+        text-align: center;
+    }
+    .how-to-find {
+        padding: 45px 0 46px 50px;
+    }
+    .form-side form input {
+        height: 48px;
+    }
+    .form-btn {
+        justify-content: center;
+    }
+    .blog-detail {
+        width: calc(100% - 25px);
+    }
+	.how-to-find {
+		padding: 45px 0 46px 50px;
+	}
+	.about-main-faq{
+		display: block;
+	}
+	.faq-margine {
+		margin-top: 8px;
+	}
+	.sub-banner {
+		height: 253px;
+	}
+	.blog {
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.footer-links {
+		flex-wrap: wrap;
+	}
+	.single-links {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.single-links:last-child {
+		margin-bottom: 0;
+	}
+	.header-contact {
+	    width: 45%;
+	}
+	.logo {
+	    width: 43%;
+	}
+}
+@media screen and (max-width:575px) {
+	.banner-txt h1 {
+		font-size: 30px;
+	}
+	.faq-title h3 {
+		font-size: 18px;
+		padding-top: 20px;
+	}
+	.faq-title h3::before {
+		max-width: 111px;
+	}
+	.accordion{
+		font-size: 16px;
+		padding: 18px 0;
+	}
+	.accordion::after{
+		font-size: 15px;
+		height:15px ;
+		width: 15px;
+	}
+	.about-main.about-align.faq-margine {
+		margin-top: 20px;
+	}
+	.faq-title {
+		margin-bottom: 20px;
+	}
+	.how-to-find {
+        padding: 45px 10px 46px;
+        text-align: center;
+    }
+    .pagination a.pagination_number {
+        margin: 1px;
+        font-size: 14px;
+    }
+    .pagination a span.prev {
+        padding-right: 5px;
+    }
+    .pagination a span.next {
+        padding-left: 5px;
+    }
+	/* masonary */
+	.grid-wrapper .big {
+		grid-column: span 1;
+		grid-row: span 1;
+	}
+	.grid-wrapper {
+		margin: 10px 0 30px 0;
+	}
+	.panel{
+		padding: 0;
+	}
+	.panel p{
+		font-size: 14px;
+		text-align: justify;
+	}
+	.sub-banner {
+		height: 195px;
+	}
+	.form-side input::placeholder, .form-side textarea::placeholder {
+		font-size: 18px;
+	  }
+	  .form-side form input, .form-side form .text-area {
+		padding-left: 9px;
+	}
+	.blog-img img {
+		height: 150px;
+	}
+}
+@media screen and (max-width:480px) {
+	.sub-banner {
+    height: 159px;
+}
+}
